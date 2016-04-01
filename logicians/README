@@ -1,1 +1,42 @@
 Answer for https://fivethirtyeight.com/features/can-you-solve-the-impossible-puzzle/
+
+Output:
+
+Sums: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+Products: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 24, 25, 27, 28, 30, 32, 35, 36, 40, 42, 45, 48, 49, 54, 56, 63, 64, 72, 81
+
+Round: 1
+Sums: 5, 6, 7, 8, 9, 10, 11
+Products: 4, 6, 8, 9, 12, 16, 18, 24, 36
+
+Round: 2
+Possible answer for Susan: 5
+Corresponding argument pair: 3, 2
+Sums: 6, 7, 8, 9, 10, 11
+Products: 6, 8, 9, 12, 16, 18, 24
+
+Round: 3
+Possible answer for Pete: 6
+Corresponding argument pair: 1, 6
+Possible answer for Susan: 7
+Corresponding argument pair: 4, 3
+Sums: 6, 8, 9, 10, 11
+Products: 16, 24, 18, 8, 9, 12
+
+Round: 4
+Possible answer for Pete: 12
+Corresponding argument pair: 6, 2
+Possible answer for Susan: 8
+Corresponding argument pair: 4, 4
+Sums: 9, 10, 11, 6
+Products: 16, 8, 18, 24, 9
+
+Round: 5
+Possible answer for Pete: 16
+Corresponding argument pair: 2, 8
+Sums: 9, 10, 11, 6
+Products: 8, 18, 24, 9
+
+Round: 6
+Sums: 9, 10, 11, 6
+Products: 8, 24, 18, 9
