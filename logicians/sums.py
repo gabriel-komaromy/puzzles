@@ -22,7 +22,7 @@ def legal_components(remaining_candidates, op):
     return components
 
 
-def only_one_pair(x, op, possible_components):
+def one_unique_pair(x, op, possible_components):
     count = 0
     for i, j in possible_components:
         if op(i, j) == x:
