@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+\noindent One Russian engine, three ion engines, and three payloads.\\
+This can be modeled as an integer linear program:
+
+\begin{alignat*}{2}
+    \text{max } & 200E1 + 100E2 + 50IE + 25PL\\
+        \text{subject to } & 400E1 + 400E2 + 150IE + 50PL \leq 1000\\
+    & E1 \geq E2\\
+    & E1 \leq 1\\
+    & E2 \leq 1\\
+    & IE \leq 6\\
+    & PL \leq 4\\
+    & E1, E2, IE, PL \geq 0\\
+    & E1, E2, IE, PL \in \mathbb{Z}
+\end{alignat*}
+
+\noindent I wrote an Octave program to solve this, \emph{solution.m}. The results are one Russian engine, three ion engines, and 3 fuel payloads for a total discount of 425 days.
+\end{document}
